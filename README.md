@@ -8,7 +8,7 @@
 🔗 **Links:**  
 - Website: https://github.com/Abhiramvp
 - LinkedIn: https://linkedin.com/in/Abhiramvp  
-- GitHub: https://github.com/Abhiramvp  
+- GitHub/Projects: [https://github.com/Abhiramvp](https://github.com/Abhiramvp?tab=repositories)  
 
 ---
 
