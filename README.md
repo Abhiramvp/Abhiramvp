@@ -6,7 +6,7 @@
 📫 **Reach me:** abhiram2783@gmail.com | +1-682-307-3585
 
 🔗 **Links:**  
--Google Scholar: https://scholar.google.com/citations?user=sKwaUh8AAAAJ&hl=en&oi=ao
+- Google Scholar: https://scholar.google.com/citations?user=sKwaUh8AAAAJ&hl=en&oi=ao
 - Website: https://github.com/Abhiramvp
 - LinkedIn: https://linkedin.com/in/Abhiramvp  
 - GitHub/Projects: [https://github.com/Abhiramvp](https://github.com/Abhiramvp?tab=repositories)  
