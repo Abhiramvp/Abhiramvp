@@ -97,7 +97,45 @@ If you're building anything around **microgrid optimization/control** or **HIL v
 
 # 🔬From Model to Deployment
 
-## 1) Robust Control via SOS (ECCE 2024)
+## ➡️ Robust OPF with Affine Policies (IEEE TPS 2025)
+
+### A. Engineering Problem  
+DC optimal power flow under uncertain load demand where voltage, generation, and line limits must remain feasible for all admissible uncertainty realizations.
+
+### B. Algorithm Design  
+Formulated OPF as a nonconvex QCQP with ellipsoidal uncertainty.  
+Designed affine voltage control policies mapping load variations to setpoints.  
+Used S-lemma and semidefinite relaxation to eliminate semi-infinite constraints.  
+Applied lifting and penalization to ensure physical feasibility.
+
+### C. Real-Time Validation  
+Computed affine voltage policies offline.  
+Implemented real-time mapping from measured load to voltage commands.  
+Validated on IEEE test systems and via controller and hardware in the loop experiments.
+
+### D. Challenges  
+
+---
+
+## ➡️ Stability-Constrained OPF (Ongoing)
+
+### A. Engineering Problem  
+Inverter dominant autonomous microgrids require operating points that are both optimal and small-signal stable.
+
+### B. Algorithm Design  
+Embedded stability constraints directly into OPF using an augmented Jacobian formulation.  
+Convexified the coupled stability and dispatch problem using semidefinite relaxation.  
+Accelerated convergence using physics-informed neural network warm starts.
+
+### C. Real-Time Validation  
+Evaluated on multi-bus benchmark systems.  
+Validated stability-optimal operating points using controller and hardware in the loop experiments.
+
+### D. Challenges  
+
+---
+
+## ➡️ Robust Control via SOS (ECCE 2024)
 
 ### A. Engineering Problem  
 DC microgrids with tightly regulated converters behave as constant power loads and can become unstable under uncertainty in loads, line parameters, and source voltages. Stability must be guaranteed across bounded, time-varying uncertainty trajectories.
@@ -117,28 +155,8 @@ Closed-loop stability verified under structured uncertainty scenarios.
 
 ---
 
-## 2) Robust OPF with Affine Policies (IEEE TPS 2025)
 
-### A. Engineering Problem  
-DC optimal power flow under uncertain load demand where voltage, generation, and line limits must remain feasible for all admissible uncertainty realizations.
-
-### B. Algorithm Design  
-Formulated OPF as a nonconvex QCQP with ellipsoidal uncertainty.  
-Designed affine voltage control policies mapping load variations to setpoints.  
-Used S-lemma and semidefinite relaxation to eliminate semi-infinite constraints.  
-Applied lifting and penalization to ensure physical feasibility.
-
-### C. Real-Time Validation  
-Computed affine voltage policies offline.  
-Implemented real-time mapping from measured load to voltage commands.  
-Validated on IEEE test systems and via controller and hardware in the loop experiments.
-
-### D. Challenges  
-
-
----
-
-## 3) Robust Buffer Control (IEEE TEC 2023)
+## ➡️ Robust Buffer Control (IEEE TEC 2023)
 
 ### A. Engineering Problem  
 Power buffers interacting with DC microgrids introduce dynamic coupling and parametric uncertainty, requiring guaranteed voltage regulation and stability.
@@ -157,7 +175,7 @@ Evaluated robustness under parameter variation and load fluctuation.
 
 ---
 
-## 4) Stochastic Buffer Control (ACC 2023)
+## ➡️ Stochastic Buffer Control (ACC 2023)
 
 ### A. Engineering Problem  
 Coordinated control of power buffers under stochastic load variations with performance optimization objectives.
@@ -176,7 +194,7 @@ Benchmarked performance against conventional strategies.
 
 ---
 
-## 5) Event-Triggered Secondary Control (IEEE TPEL)
+## ➡️ Event-Triggered Secondary Control (IEEE TPEL)
 
 ### A. Engineering Problem  
 Distributed secondary voltage regulation and current sharing in DC microgrids with limited communication bandwidth.
@@ -193,21 +211,4 @@ Validated performance using controller and hardware in the loop experiments.
 ### D. Challenges  
 
 
----
-
-## 6) Stability-Constrained OPF (Ongoing)
-
-### A. Engineering Problem  
-Inverter dominant autonomous microgrids require operating points that are both optimal and small-signal stable.
-
-### B. Algorithm Design  
-Embedded stability constraints directly into OPF using an augmented Jacobian formulation.  
-Convexified the coupled stability and dispatch problem using semidefinite relaxation.  
-Accelerated convergence using physics-informed neural network warm starts.
-
-### C. Real-Time Validation  
-Evaluated on multi-bus benchmark systems.  
-Validated stability-optimal operating points using controller and hardware in the loop experiments.
-
-### D. Challenges  
 
