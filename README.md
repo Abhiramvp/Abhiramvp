@@ -93,7 +93,7 @@
 If you're building anything around **microgrid optimization/control** or **HIL validation (Typhoon/dSPACE)**, feel free to reach out.
 📫 abhiram2783@gmail.com
 
-# From Model to Deployment
+# 🔬From Model to Deployment
 
 ## 1) Robust Control via SOS (ECCE 2024)
 
