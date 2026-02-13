@@ -1,9 +1,9 @@
 # 👋 Hi, I’m Abhiram V. P. Premakumar
 
-👀 **Interests:** Power system optimization • Hardware-in-the-Loop (HIL) testing • Microgrid & Automotive Controls  
-🌱 **Current role:** Postdoctoral Research Associate (Electrical Engineering Dept.), University of Texas at Arlington (UTA)  
-💞️ **Open to collaborate on:** Real-time optimization + control, and HIL-validated workflows for inverter dominant microgrids and power electronics  
-📫 **Reach me:** abhiram2783@gmail.com | +1-682-307-3585
+ **Interests:** Power system optimization • Hardware-in-the-Loop (HIL) testing • Microgrid Controls  
+ **Current role:** Postdoctoral Research Associate (Electrical Engineering Dept.), University of Texas at Arlington (UTA)  
+ **Open to collaborate on:** Real-time optimization + control, and HIL-validated workflows for (inverter/DC) microgrids and power electronics systems 
+ **Reach me:** abhiram2783@gmail.com | +1-682-307-3585
 
 🔗 **Links:**  
 - Google Scholar: https://scholar.google.com/citations?user=sKwaUh8AAAAJ&hl=en&oi=ao
@@ -14,9 +14,10 @@
 ---
 
 ## 🔬 What I work on
-- Real-time optimization algorithms and control implementation in **inverter dominant** microgrids  
-- Controller-Hardware-in-the-Loop (C-HIL) testing and repeatable validation workflows  
-- Converter control design for uncertainty-afflicted DC microgrids  
+- Real-time optimization and feedback control design for inverter dominant microgrids, integrating stability-constrained operating points with converter-level control loops  
+- Controller-Hardware-in-the-Loop (C-HIL) based validation pipelines for power-electronic control strategies, including repeatable real-time testing and closed-loop performance benchmarking  
+- Robust feedback control synthesis for uncertainty-afflicted DC networks with parametric variation, load uncertainty, and dynamic coupling  
+- End-to-end convex and semidefinite optimization pipelines for constraint-aware, stability-certified control and operating point computation  
 - Optimization modeling and solution pipelines (convex / robust / SDP-style workflows)
 
 ---
@@ -28,9 +29,10 @@
 
 **Modeling / Optimization / Simulation:**  
 - MATLAB (CVX, YALMIP)  
-- Simulink/Simscape, PLECS; familiar with PSS/E
+- Simulink/Simscape, PLECS, PSCAD, PSS/E
 
 **Python:**  
+- Power system: pypower, CVXpy, pypower, pandapower, gurobipy
 - Data analysis / ML: NumPy, TensorFlow  
 - Test automation: pytest
 
