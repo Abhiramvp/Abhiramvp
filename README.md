@@ -1,4 +1,4 @@
-# 👋 Hi, I’m Abhiram V. P. Premakumar
+# I’m Abhiram V. P. Premakumar
 
  **Interests:** Power system optimization • Hardware-in-the-Loop (HIL) testing • Microgrid Controls  
  **Current role:** Postdoctoral Research Associate (Electrical Engineering Dept.), University of Texas at Arlington (UTA)  
