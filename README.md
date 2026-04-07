@@ -14,7 +14,7 @@
 ---
 
 ## 🔬 What I work on
-- Real-time optimization and feedback control design for inverter dominant microgrids, integrating stability-constrained operating points with converter-level control loops  
+- Real-time optimization and control design for inverter dominant microgrids.  
 - Controller-Hardware-in-the-Loop (C-HIL) based validation pipelines for power-electronic control strategies, including repeatable real-time testing and closed-loop performance benchmarking  
 - Robust feedback control synthesis for uncertainty-afflicted DC networks with parametric variation, load uncertainty, and dynamic coupling  
 - End-to-end convex and semidefinite optimization pipelines for constraint-aware, stability-certified control and operating point computation  
@@ -123,9 +123,7 @@ Validated on IEEE test systems and via controller and hardware in the loop exper
 Inverter dominant autonomous microgrids require operating points that are both optimal and small-signal stable.
 
 ### B. Algorithm Design  
-Embedded stability constraints directly into OPF using an augmented Jacobian formulation.  
-Convexified the coupled stability and dispatch problem using semidefinite relaxation.  
-Accelerated convergence using physics-informed neural network warm starts.
+Embedded stability constraints directly into OPF.
 
 ### C. Real-Time Validation  
 Evaluated on multi-bus benchmark systems.  
