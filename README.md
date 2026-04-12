@@ -1,67 +1,105 @@
 # Abhiram V. P. Premakumar
 
- **Interests:** Power system optimization • Hardware-in-the-Loop (HIL) testing • Microgrid Controls  
- **Current role:** Postdoctoral Research Associate (Electrical Engineering Dept.), University of Texas at Arlington (UTA)  
- **Open to collaborate on:** Power Electronics Control, Power Systems, Real-time optimization + control, and HIL-validated workflows for (inverter/DC) microgrids and power electronics systems 
- **Reach me:** abhiram2783@gmail.com | +1-682-307-3585
+**Summary:** Electrical engineer with 7+ years of experience in power engineering, including optimization algorithms, converter modeling, dynamic control design, and controller-hardware-in-the-loop (CHIL) testing. Experienced in translating grid integration requirements into optimization algorithms and real-time control. Skilled in CHIL, PLECS, SIMULINK, and PSCAD simulations.
+
+**Interests:** Power Electronic Control Design • Optimal Power Flow Variants for Microgrids • CHIL Testing and Grid Simulation  
+**Current role:** Postdoctoral Research Associate, Electrical Engineering Department, University of Texas at Arlington (UTA)  
+**Open to collaborate on:** Power electronics control, power systems, real-time optimization and control, and HIL-validated workflows for inverter-based and DC microgrids  
+**Reach me:** abhiram2783@gmail.com | +1-682-307-3585
 
 🔗 **Links:**  
-- Google Scholar: https://scholar.google.com/citations?user=sKwaUh8AAAAJ&hl=en&oi=ao
-- Website: https://github.com/Abhiramvp
+- Google Scholar: https://scholar.google.com/citations?user=sKwaUh8AAAAJ&hl=en&oi=ao  
 - LinkedIn: https://linkedin.com/in/Abhiramvp  
-- GitHub/Projects: [https://github.com/Abhiramvp](https://github.com/Abhiramvp?tab=repositories)  
+- GitHub: https://github.com/Abhiramvp  
 
 ---
 
 ## 🔬 What I work on
-- Real-time optimization and control design for inverter dominant microgrids.  
-- Controller-Hardware-in-the-Loop (C-HIL) based validation pipelines for power-electronic control strategies, including repeatable real-time testing and closed-loop performance benchmarking  
-- Robust feedback control synthesis for uncertainty-afflicted DC networks with parametric variation, load uncertainty, and dynamic coupling  
-- End-to-end convex and semidefinite optimization pipelines for constraint-aware, stability-certified control and operating point computation  
-- Optimization modeling and solution pipelines (convex / robust / SDP-style workflows)
+- Optimal power flow variants and optimization algorithms for complex and inverter-dominant microgrids  
+- Real-time optimization and control workflows for converter-interfaced power systems  
+- Controller-hardware-in-the-loop (CHIL) validation using Typhoon HIL and dSPACE platforms  
+- Dynamic control design for droop-controlled inverters and uncertainty-afflicted DC microgrids  
+- Convex, robust, and semidefinite-programming-based formulations for control and operation of microgrids  
 
 ---
 
 ## 🧰 Skills & Tools
-**HIL / Real-time platforms:**  
-- Typhoon HIL (HIL 604 RTS, ETH-VE, TestIDE)  
-- dSPACE (RTI, ControlDesk, DS1202 HIL), Ethernet communication
 
-**Modeling / Optimization / Simulation:**  
+**Programming:**  
 - MATLAB (CVX, YALMIP)  
-- Simulink/Simscape, PLECS, PSCAD, PSS/E
+- Python (NumPy, CVXPY, PyPower, TensorFlow)  
+- CAN/CAPL  
+- Embedded C  
 
-**Python:**  
-- Power system: pypower, CVXpy, pypower, pandapower, gurobipy
-- Data analysis / ML: NumPy, TensorFlow  
-- Test automation: pytest
+**Simulation / Modeling:**  
+- Simulink/Simscape  
+- PLECS  
+- PSCAD  
+- PSSE  
 
-**Embedded & Protocols:**  
-- TI C2000 (F28379D) in C (working familiarity with C++)  
-- CAPL scripting, Modbus TCP, CAN, Ethernet (HIL/SCADA contexts)
+**HIL / Real-time platforms:**  
+- Typhoon HIL 604, TestIDE, Pytest  
+- dSPACE ControlDesk, MicroLabBox DS1202  
+- ETH-VE communication workflows  
 
 ---
 
 ## 🧑‍💻 Experience
-- **Postdoctoral Research Associate, UTA** (Aug 2025 – Present)  
-  - Development of real-time optimization algorithms & control implementation in inverter dominant microgrids
 
-- **Graduate Research Assistant, UTA** (Jan 2021 – Aug 2025)  
-  - C-HIL testing for inverter dominant microgrids (MATLAB/dSPACE/Typhoon HIL)  
-  - Design and validation of converter control algorithms for uncertainty-afflicted DC microgrids
+- **Postdoctoral Research Associate, Electrical Engineering Department, UTA**  
+  **Aug 2025 – Present**  
+  - Developed algorithms for complex microgrid analysis, including optimal power flow variants and demand uncertainty.  
+  - Implemented CVX-based optimization programs in MATLAB for MATPOWER 4-, 14-, 30-, and 57-bus benchmark test cases for numerical studies, and AC microgrid simulations in SIMULINK and PLECS.  
+  - Implemented a closed-loop workflow that received measurements from a Typhoon/dSPACE multi-controller HIL setup, computed real-time setpoints in MATLAB on a PC, and sent updated setpoints back through ETH-VE communication.  
 
-- **Engineer, Solar Energy Corporation of India (SECI)** (Jul 2019 – Dec 2020)  
-  - Feasibility studies of megawatt-scale solar PV projects (PVsyst, MATLAB)
+- **Graduate Research Assistant, Electrical Engineering Department, UTA**  
+  **Jan 2021 – Aug 2025**  
+  - Designed tractable optimization programs and closed-loop control for droop-controlled inverters with CHIL testing.  
+  - Developed a tractable robust OPF formulation in SDP form for DC networks with uncertain loads, deriving affine control policies through which power converters adjust bus voltages, and validated the framework numerically and in CHIL.  
+  - Developed robust state-feedback controllers under load uncertainty for power buffer converters that provide inertia through input-impedance shaping, and validated dynamic DC microgrid simulations in CHIL testing.  
+  - Designed optimal control policies for power-buffer-based DC microgrids using an integral reinforcement learning framework for multiplayer differential games, capturing stochastic load uncertainty through multivariate probabilistic collocation.  
+
+- **Graduate Teaching Assistant, EE 3346: Circuit Analysis II, UTA**  
+  **Fall 2021**  
+
+- **Engineer, Solar Energy Corporation of India (SECI), New Delhi, India**  
+  **Jul 2019 – Dec 2020**  
+  - Conducted FEED-level feasibility and cost studies for solar projects to support tendering and investment decisions.  
 
 ---
 
 ## 🎓 Education
-- **Ph.D., Electrical Engineering, UTA** (GPA: 4.0/4.0, Jan 2021 – Aug 2025)  
-  - Thesis: *Synergistic Control and Optimization in Complex Microgrids*
+- **Ph.D., Electrical Engineering, University of Texas at Arlington**  
+  GPA: 4.0/4.0, **Jan 2021 – Aug 2025**  
+  Thesis: *Synergistic Control and Optimization in Complex Microgrids*  
+  Advisor: Dr. Ali Davoudi  
 
-- **Master’s, Electrical Engineering, IIT Kanpur** (Aug 2017 – Jul 2019)
+- **Master’s, Electrical Engineering, Indian Institute of Technology Kanpur**  
+  **Aug 2017 – Jul 2019**  
+  Thesis: *Communication Topology Selection for Secondary Control in DC Microgrid*  
+  Advisor: Dr. Sandeep Anand  
+
+- **Bachelor’s, Electrical and Electronics Engineering, University of Kerala**  
+  **Aug 2012 – May 2016**  
 
 ---
+
+## 🏆 Awards and Recognitions
+- Runner-up, 2025 N. M. Stelmakh Outstanding Student Research Award  
+- Laxmi and Raj Mrig Endowed Graduate Fellowship, Fall 2024 and Spring 2025  
+- Student travel grant, 2023 American Control Conference (ACC)  
+- Presenter at IEEE ACC 2023 and IEEE ECCE 2024  
+- POSOCO Power System Award (PPSA) 2020  
+
+---
+
+## 🤝 Let’s connect
+If you are working on **microgrid optimization and control**, **power electronics control**, or **CHIL validation using Typhoon HIL and dSPACE**, feel free to connect.
+
+📫 abhiram2783@gmail.com
+---
+
+
 
 ## 📚 Publications
 
@@ -79,19 +117,6 @@
 - S. Zhou, Y. Qian, Y. Wan, Z. Lin, Y. A. Shamash, A. V. P. Premakumar and A. Davoudi, "On the Resilience Analysis of DC Microgrids With Power Buffer Control," in *IEEE Transactions on Circuits and Systems I: Regular Papers*, vol. 71, no. 9, pp. 4233-4246, 2024.  
 - Y. Qian, A. V. P. Premakumar, Y. Wan, Z. Lin, Y. A. Shamash and A. Davoudi, "Event-triggered control of power buffers in DC microgrids over an unreliable network," in *International Journal of Robust and Nonlinear Control*, vol. 35, no. 17, pp. 7142-7158, 2025.  
 
----
-
-## 🏆 Awards
-- Runner-up: 2025 N. M. Stelmakh Outstanding Student Research Award  
-- Laxmi and Raj Mrig Endowed Graduate Fellowship (Fall 2024, Spring 2025)  
-- ACC 2023 student travel grant; presenter at IEEE ACC 2023 and IEEE ECCE 2024  
-- POSOCO Power System Award (PPSA) 2020
-
----
-
-## 🤝 Let’s connect
-If you're building anything around **microgrid optimization/control** or **HIL validation (Typhoon/dSPACE)**, feel free to reach out.
-📫 abhiram2783@gmail.com
 
 ---
 
