@@ -2,7 +2,7 @@
 
  **Interests:** Power system optimization • Hardware-in-the-Loop (HIL) testing • Microgrid Controls  
  **Current role:** Postdoctoral Research Associate (Electrical Engineering Dept.), University of Texas at Arlington (UTA)  
- **Open to collaborate on:** Real-time optimization + control, and HIL-validated workflows for (inverter/DC) microgrids and power electronics systems 
+ **Open to collaborate on:** Power Electronics Control, Power Systems, Real-time optimization + control, and HIL-validated workflows for (inverter/DC) microgrids and power electronics systems 
  **Reach me:** abhiram2783@gmail.com | +1-682-307-3585
 
 🔗 **Links:**  
