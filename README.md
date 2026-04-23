@@ -49,7 +49,7 @@
 - **Postdoctoral Research Associate, Electrical Engineering Department, UTA**  
   **Aug 2025 – Present**  
   - Developed algorithms for complex microgrid analysis, including optimal power flow variants and demand uncertainty.  
-  - Implemented CVX-based optimization programs in MATLAB for MATPOWER 4-, 14-, 30-, and 57-bus benchmark test cases for numerical studies, and AC microgrid simulations in SIMULINK and PLECS.  
+  - Implemented CVX-based optimization programs in MATLAB for several MATPOWER benchmark test cases for numerical studies, and AC microgrid simulations in SIMULINK and PLECS.  
   - Implemented a closed-loop workflow that received measurements from a Typhoon/dSPACE multi-controller HIL setup, computed real-time setpoints in MATLAB on a PC, and sent updated setpoints back through ETH-VE communication.  
 
 - **Graduate Research Assistant, Electrical Engineering Department, UTA**  
