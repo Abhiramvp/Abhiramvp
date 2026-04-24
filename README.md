@@ -1,25 +1,42 @@
 # Abhiram V. P. Premakumar
 
-**Summary:** Electrical engineer with 7+ years of experience in power engineering, including optimization algorithms, converter modeling, dynamic control design, and controller-hardware-in-the-loop (CHIL) testing. Experienced in translating grid integration requirements into optimization algorithms and real-time control. Skilled in CHIL, PLECS, SIMULINK, and PSCAD simulations.
+Electrical engineer with 7+ years of experience in power engineering, including optimization algorithms, converter modeling, dynamic control design, and controller-hardware-in-the-loop (CHIL) testing. My overall profile spans multiple layers of power system engineering, from grid integration studies and control design to real-time simulation, embedded control familiarity, and automated validation.
 
-**Interests:** Power Electronic Control Design • Optimal Power Flow Variants for Microgrids • CHIL Testing and Grid Simulation  
 **Current role:** Postdoctoral Research Associate, Electrical Engineering Department, University of Texas at Arlington (UTA)  
+**Interests:** Power Electronic Control Design • Optimal Power Flow Variants for Microgrids • CHIL Testing and Grid Simulation  
 **Open to collaborate on:** Power electronics control, power systems, real-time optimization and control, and HIL-validated workflows for inverter-based and DC microgrids  
-**Reach me:** abhiram2783@gmail.com | +1-682-307-3585
+**Reach me:** abhiram2783@gmail.com | +1-682-307-3585  
 
-🔗 **Links:**  
+**Links:**  
 - Google Scholar: https://scholar.google.com/citations?user=sKwaUh8AAAAJ&hl=en&oi=ao  
 - LinkedIn: https://linkedin.com/in/Abhiramvp  
 - GitHub: https://github.com/Abhiramvp  
 
 ---
+## What I work on
 
-## 🔬 What I work on
-- Optimal power flow variants and optimization algorithms for complex and inverter-dominant microgrids  
-- Real-time optimization and control workflows for converter-interfaced power systems  
-- Controller-hardware-in-the-loop (CHIL) validation using Typhoon HIL and dSPACE platforms  
-- Dynamic control design for droop-controlled inverters and uncertainty-afflicted DC microgrids  
-- Convex, robust, and semidefinite-programming-based formulations for control and operation of microgrids  
+**Power System Dynamics & Grid Integration**
+- Inverter dominant microgrids and renewable integration
+- Power system dynamic modeling and simulation studies using MATLAB and PSS®E
+- Grid integration studies for inverter-based resources and converter-interfaced systems
+
+**Control Design & Stability**
+- Grid-forming (GFM) and grid-following (GFL) inverter control
+- Small-signal stability analysis and dynamic control design for voltage and frequency regulation
+
+**Optimization & System Operation**
+- Optimization-based control and optimal power flow (OPF) methods
+- Robust and uncertainty-aware microgrid operation
+- Machine learning applications for power system analysis using Python
+
+**Implementation & Simulation**
+- Modeling and simulation using MATLAB/Simulink, Simscape Electrical, PSCAD, and PLECS
+- Translation of system-level requirements into control algorithms
+- Familiarity with embedded control implementation on TI C2000 platforms
+
+**Validation & Testing**
+- Controller-hardware-in-the-loop (CHIL) and real-time validation using Typhoon HIL and dSPACE platforms
+- Automated testing using pytest and MATLAB Test frameworks
 
 ---
 
@@ -50,7 +67,8 @@
   **Aug 2025 – Present**  
   - Developed algorithms for complex microgrid analysis, including optimal power flow variants and demand uncertainty.  
   - Implemented CVX-based optimization programs in MATLAB for several MATPOWER benchmark test cases for numerical studies, and AC microgrid simulations in SIMULINK and PLECS.  
-  - Implemented a closed-loop workflow that received measurements from a Typhoon/dSPACE multi-controller HIL setup, computed real-time setpoints in MATLAB on a PC, and sent updated setpoints back through ETH-VE communication.  
+  - Implemented a closed-loop workflow that received measurements from a Typhoon/dSPACE multi-controller HIL setup, computed real-time setpoints in MATLAB on a PC, and sent updated setpoints back through ETH-VE communication.
+  - Applied Python-based machine learning workflows for power system analysis, complementing optimization and dynamic simulation studies.
 
 - **Graduate Research Assistant, Electrical Engineering Department, UTA**  
   **Jan 2021 – Aug 2025**  
