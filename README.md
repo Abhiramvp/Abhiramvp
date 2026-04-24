@@ -15,28 +15,33 @@ Electrical engineer with 7+ years of experience in power engineering, including 
 ---
 ## What I work on
 
-**Power System Dynamics & Grid Integration**
+**Power Systems & Grid Modeling**
 - Inverter dominant microgrids and renewable integration
-- Power system dynamic modeling and simulation studies using MATLAB and PSS®E
+- Power system dynamic modeling and EMT-type simulation studies
 - Grid integration studies for inverter-based resources and converter-interfaced systems
+- Simulation studies using MATLAB and PSS®E
 
-**Control Design & Stability**
+**Power Electronics & Control**
 - Grid-forming (GFM) and grid-following (GFL) inverter control
-- Small-signal stability analysis and dynamic control design for voltage and frequency regulation
+- Droop-controlled converters and voltage/frequency regulation
+- Small-signal stability analysis and dynamic control design
+- Translation of system-level requirements into control algorithms
 
-**Optimization & System Operation**
+**Optimization & Computational Methods**
 - Optimization-based control and optimal power flow (OPF) methods
 - Robust and uncertainty-aware microgrid operation
+- Semidefinite programming and convex optimization methods
 - Machine learning applications for power system analysis using Python
 
-**Implementation & Simulation**
-- Modeling and simulation using MATLAB/Simulink, Simscape Electrical, PSCAD, and PLECS
-- Translation of system-level requirements into control algorithms
-- Familiarity with embedded control implementation on TI C2000 platforms
-
-**Validation & Testing**
+**Real-Time Validation & HIL**
 - Controller-hardware-in-the-loop (CHIL) and real-time validation using Typhoon HIL and dSPACE platforms
-- Automated testing using pytest and MATLAB Test frameworks
+- Development of validation workflows including real-time setpoint exchange and closed-loop testing
+- Automated testing workflows using pytest and MATLAB Test frameworks
+
+**Modern Toolchain**
+- MATLAB/Simulink, Simscape Electrical, PSCAD, PLECS, and PSS®E
+- Python, CVX/CVXPY, YALMIP, and MATLAB Test
+- Familiarity with embedded control implementation on TI C2000 platforms
 
 ---
 
