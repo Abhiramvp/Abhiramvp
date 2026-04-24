@@ -17,7 +17,7 @@ Electrical engineer with 7+ years of experience in power engineering, including 
 
 **Power Systems & Grid Modeling**
 - Inverter dominant microgrids and renewable integration
-- Power system dynamic modeling and EMT-type simulation studies
+- Dynamic and EMT-type simulation of inverter-based resources, focusing on control response, stability, and grid interaction
 - Grid integration studies for inverter-based resources and converter-interfaced systems
 - Simulation studies using MATLAB and PSS®E
 
